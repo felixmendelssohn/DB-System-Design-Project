@@ -1,0 +1,19 @@
+AMAZON-LIKE ONLINE STORE DATABASE
+
+THE ENTITIES OF INTEREST include :-
+1 Addresses.
+2 Customers.
+3 Deliveries
+4 Orders.
+5 Payments
+6 Products.
+7 Suppliers.
+
+The Busines Rules are as follows :-
+1 A Customer can have zero,one or many ORDERS.
+2 An ADDRESS can be associated with only one ADDRESS.
+3 An ADDRESS can be associated with only one CUSTOMER.
+4 A DELIVERY is associated with just one ORDER.
+5 An ORDER must be associated with one and only one CUSTOMER.
+6 An ORDER can be associated with one or many PRODUCTS.
+7 A PAYMENT must be associated with one and only one ORDER.
